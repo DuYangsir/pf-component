@@ -1,0 +1,40 @@
+@brand-primary: #108ee9;
+@brand-primary-tap: #0e80d2;
+@brand-success: #6abf47;
+@brand-warning: #ffc600;
+@brand-error: #f4333c;
+@fill-disabled: #ddd;
+@color-text-disabled: #bbb;
+@color-text-base-inverse: #fff;
+
+.pf-select-tabs{
+  background-color: @color-text-base-inverse;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  .pf-content-head{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+  }
+  .pf-content-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    background: @fill-disabled;
+    .pf-list-box{
+      width: 100%;
+      height: 100%;
+      background:pink;
+    }
+  }
+}
+
+.pf-select-tabs-active{
+  height: 100%;
+}
+

@@ -37,6 +37,15 @@ export default class App extends Component {
           >
             List
           </Item>
+          <Item
+            extra="详情"
+            arrow
+            onClick={() => {
+              this.props.history.push('screen')
+            }}
+          >
+            screen
+          </Item>
         </List>
       </div>
     )
